@@ -1,0 +1,91 @@
+body{
+	background: url(images/pexels-aleksandar-pasaric-3342739.jpg);
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.container{
+	background: #fff;
+	height: 400px;
+	width: 320px;
+	position: absolute;
+	/*box-sizing: border-box;*/
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 70px 30px;
+	text-align: center;
+}
+.user-icon{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	position: absolute;
+	top: -50px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.container h1{
+	margin-top: 0;
+	margin-bottom: 40px;
+	padding: 0;
+	color: #1c8adb;
+}
+.input-box{
+	margin-bottom: 20px;
+	border-radius: 25px;
+	outline: none;
+	border: 1px solid #ddd;
+	padding: 10px;
+	font-size: 14px;
+	width: 100%;
+}
+/*input[type="checkbox"]{
+	position: relative;
+	display: inline;
+}
+input[type="checkbox"] span{
+	position: relative;
+	display: inline;
+	padding: 0;
+	margin: 0;
+}*/
+input[type="button"]{
+	color: #fff;
+	padding: 10px;
+	outline: none;
+	/*background: lightblue;*/
+	border: none;
+	border-radius: 25px;
+	/*margin-bottom: 20px;*/
+	margin: 10px 0;
+	font-size: 16px;
+	width: 100%;
+	cursor: pointer;
+}
+.signup-btn{
+	background-color: #1c8adb;
+}
+.twitter-btn{
+	background-color: #21afde;
+}
+a{
+	text-decoration: none;
+}
+hr{
+	width: 80%;
+	margin-top: 20px;
+
+}
+.container .OR{
+	background: #fff;
+	width: 30px;
+	margin: -19px auto 10px;
+
+
+/*	margin-top: -20px;
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;*/
+}
